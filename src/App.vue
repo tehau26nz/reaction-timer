@@ -11,10 +11,11 @@
 // - Output the score inside the results component
 
 import Block from './components/Block.vue'
+import Results from './components/Results.vue'
 
 export default {
   name: 'App',
-  components: { Block },
+  components: { Block, Results },
   data(){
     return{
       isPlaying: false,
