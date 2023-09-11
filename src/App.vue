@@ -6,6 +6,10 @@
 </template>
 
 <script>
+// Challenge
+// - When game finishes, show results component
+// - Output the score inside the results component
+
 import Block from './components/Block.vue'
 
 export default {
